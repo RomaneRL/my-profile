@@ -1,0 +1,95 @@
+/* Colors and fonts */
+body{		
+	color: #414141;
+	background-color: #f2f6f5;
+	font-family:'Nunito', sans-serif;
+	font-size: 15px;
+	line-height: 1.2;
+	text-justify: center;
+}
+h1{
+	color: #FA8072;
+	font-weight: 500;
+	text-align: center;
+}
+h2{
+	color: #FA8072;
+	text-align: center;
+}
+a{
+	color: #FA8072;
+	text-decoration: none;
+	font-weight: bolder;
+	font-size: 14px; 
+}
+a:hover{
+	color: #C60030;
+}
+
+/* Custom design with class*/
+.container {
+	width: 800px;
+	margin: 50px auto;
+}
+.card-white {
+	background: white;
+	padding: 40px;
+	border-radius: 5px;
+	box-shadow: 0px 10px 25px rgba(0,0,0,0.1);
+	margin: 20px 0px;
+	text-align: center;
+}
+.card-with-picture p {
+	margin-bottom: 30px;
+}
+.mendatory-btn {
+	background-color: #D4D7DD; 
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+.mendatory-btn:hover {
+	background-color: #C60030;
+	color: #D4D7DD;
+}
+.img-card-circle {
+	width: 100px;
+	height:100px;
+	border-radius: 50%;
+}
+.list-inline {
+	list-style: none;
+	padding: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 30px;
+}
+.list-inline i:hover {
+	color: #C60030;
+} 
+
+/* Specific desgin adjusment */
+#pp {
+	margin: 10px;
+	width: 200px
+}
+
+/* Responsive container */
+@media (max-width: 960px) {
+  .container {
+  	width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
